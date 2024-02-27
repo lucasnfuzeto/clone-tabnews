@@ -10,9 +10,8 @@ async function query(queryObject) {
     env: !process.env.NODE_ENV === "development"
   });
 
-  await client.connect();
-
   try{
+    await client.connect();
     const result = await client.query(queryObject);
     return result;
   }
