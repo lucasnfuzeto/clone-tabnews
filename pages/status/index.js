@@ -49,9 +49,8 @@ function DatabaseStatus() {
         </div>
       </>
     );
-
   }
-  
+
   return (
     <>
       <h2>Database</h2>
