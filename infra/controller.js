@@ -3,7 +3,7 @@ import {
   MethodNotAllowedError,
   NotFoundError,
   ValidationError,
-  UnauthorizedError
+  UnauthorizedError,
 } from "infra/errors";
 
 function onNoMatchHandler(request, response) {
